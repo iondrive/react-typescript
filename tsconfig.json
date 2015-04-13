@@ -1,0 +1,31 @@
+{
+    "version": "1.4.1",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false
+    },
+    "compileOnSave": false,
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./client/app.ts",
+        "./client/footer.ts",
+        "./client/routes.ts",
+        "./client/todo.ts",
+        "./client/todoItem.ts",
+        "./client/todoModel.ts",
+        "./client/utils.ts",
+        "./typings/react-router/react-router.d.ts",
+        "./typings/react/react-addons-global.d.ts",
+        "./typings/react/react-addons.d.ts",
+        "./typings/react/react-global.d.ts",
+        "./typings/react/react.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}
